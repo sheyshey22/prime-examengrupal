@@ -1,3 +1,4 @@
+*{outline: 1px solid(255, 0, 0, 0.8);}
 .hero-img{
 	background: url("../img/background/hero.jpg")no-repeat;
 	background-size: cover;
@@ -9,6 +10,17 @@
 	position: relative;
 	top: 100px;
 }
+/* sheyla*#009999*/
+.more{
+	background-color:#f2f2f2;
+}
+.portafolio{
+	background-color:#f2f2f2;
+}
+
+
+
+/* paola*/
 .city-img{
 	background: url("../img/background/city.jpg")no-repeat;
 	background-size: cover;
