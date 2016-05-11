@@ -14,8 +14,43 @@
 	background-size: cover;
 	width: 100%;
 	max-height:100%;
+	overflow: hidden;
 }
 .city{
 	padding-top:145px;
 	padding-bottom: 199px;
+}
+.contact{
+	background: url("../img/background/contactus.jpg")no-repeat;
+	background-size: cover;
+	width: 100%;
+	max-height:100%;
+	overflow: hidden;
+}
+.thumbnail h1{
+	background-color: #323A46;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+.thumbnail h4{
+	background-color: #F0F0F0;
+	margin-top: -10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #323A46;
+}
+#centro h1{
+	background-color: #0CC0BF;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
 }
