@@ -273,3 +273,27 @@ input, textarea{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+@media (max-width:750px){
+#list-menu a{font-size:20px;
+}
+}
+@media (max-width:750px){
+.hero h1{font-size:50px;
+}
+}
+@media (max-width:750px){
+.hero .btn{
+	width: 120px;
+	margin-right: 0px;
+}
+@media (max-width:750px){
+.hero a{
+	font-size: 15px;
+}
+@media (max-width:750px){
+.menu-portafolio li a{
+	font-size: 10px;
+	width:60px;
+	margin: 0px;
+	padding: 1px;
+}
