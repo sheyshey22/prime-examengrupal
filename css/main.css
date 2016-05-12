@@ -13,6 +13,11 @@ h1{
 hr{
 	width: 250px;
 }
+i{
+	font-size: 30px;
+	color: #1CBBB5; 
+	text-align: center;
+}
 .hero-img{
 	background: url("../img/background/hero.jpg")no-repeat;
 	background-size: cover;
@@ -27,6 +32,24 @@ hr{
 	padding-bottom: 490px;
 }
 /* sheyla*#009999*/
+.features{
+	margin-top: 300px;
+	margin-bottom: 300px;	
+}
+.features i{
+	font-size: 50px;
+	color: #009999; 
+	text-align: center;
+}
+.list-feat{
+	text-align: center;
+	list-style: none;
+	width: 300px;
+}
+.list-more-feat{
+	margin-top: 300px;
+	margin-bottom: 300px;
+}
 .more{
 	background-color:#f2f2f2;
 }
