@@ -9,6 +9,7 @@
   <script href ="bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/elegant-fonts.css">
@@ -185,44 +186,48 @@
 <!--fin SHEY-->
 <!--nicio SHEY-->
 <!--icio Pao-->
-<div class="container-fluid">
-<div class="row city-img">
+<div class="container-fluid city-img">
+<div class="row">
 	<center>
 	<div class="city">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.<br>Lorem ipsum dolor sit amet.</p>
-		<button class="btn"><a href="#">Call To Action</a></button>
+		<a href="#" class="btn btn-primary" role="button">Call To Action</a>
+		<!-- <button class="btn btn-default btn-lg active">Call To Action</button> -->
+		<!-- <button type="button" class="btn btn-default"></button> -->
 	</div>
 	</center>
 </div>
 </div>
 <!--precios-->
+	<div class="container-fluid">
+	<div class="row package">
 	<h1 class="text-center">Chose the package</h1>
 	<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 	<div class="container">
-	<div class="row">
   	<div class="col-sm-4 col-md-4">
     	<div class="thumbnail">
      		<h1 class="text-center">Standard</h1>
      		<h4 class="text-center">From $45.99 per month</h4>
      		<center>
      		<div class="caption">
-       		<p>Lorem ipsum dolor sit amet</p>
+       		<p>Vestibulum est magna</p>
        		<hr>
-       		<p>Lorem ipsum dolor sit amet</p>
+       		<p>Mauris auctor massa libero</p>
        		<hr>
-       		<p>Lorem ipsum dolor sit amet</p>
+       		<p>Praesent magna tortor</p>
        		<hr>
-       		<p>Lorem ipsum dolor sit amet</p>
+       		<p>Cras et fermentum massa</p>
        		<hr>
-        	<p><a href="#" class="btn btn-primary" role="button">Pursache</a>
+        	<p><a href="#" class="btn btn-primary" role="button">Pursache</a></p>
+        	<hr>
       		</div>
       		</center>
    	 	</div>
   	</div>
   	<div class="col-sm-4 col-md-4">
     	<div class="thumbnail" id="centro">
-     		<h1 class="text-center">Standard</h1>
-     		<h4 class="text-center">From $45.99 per month</h4>
+     		<h1 class="text-center">Premium</h1>
+     		<h4 class="text-center">From $75.00 per month</h4>
      		<center>
      		<div class="caption">
        		<p>Lorem ipsum dolor sit amet</p>
@@ -233,15 +238,16 @@
        		<hr>
        		<p>Lorem ipsum dolor sit amet</p>
        		<hr>
-        	<p><a href="#" class="btn btn-primary" role="button">Pursache</a>
+        	<p><a href="#" class="btn btn-primary" role="button">Pursache</a></p>
+        	<hr>
       		</div>
       		</center>
    	 	</div>
   	</div>
   	<div class="col-sm-4 col-md-4">
     	<div class="thumbnail">
-     		<h1 class="text-center">Standard</h1>
-     		<h4 class="text-center">From $45.99 per month</h4>
+     		<h1 class="text-center">Ultimate</h1>
+     		<h4 class="text-center">From $99.99 per month</h4>
      		<center>
      		<div class="caption">
        		<p>Lorem ipsum dolor sit amet</p>
@@ -252,21 +258,22 @@
        		<hr>
        		<p>Lorem ipsum dolor sit amet</p>
        		<hr>
-        	<p><a href="#" class="btn btn-primary" role="button">Pursache</a>
+        	<p><a href="#" class="btn btn-primary" role="button">Pursache</a></p>
+        	<hr>
       		</div></p>
       		</center>
    	 	</div>
+  	</div>
   	</div>
 	</div>
 	</div>
 	<!--customers-->
 	<div class="container-fluid">
 	<center>
-		<div class="row">
-			<h1>What our customers have to say</h1>
-			<img class="img-circle"src="img/customer.jpg">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor.<br><strong>-Diana Rosswert</strong></p>
+		<div class="row customer">
+			<h1>What our customers have to say...</h1>
+			<img class="responsive"src="img/customer.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor. Lorem ipsum dolor sit amet, consectetur adipisicing elit..<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor. Lorem ipsum dolor sit amet, consectetur adipisicing.<br><strong>-Diana Rosswert</strong></p>
 		</div>
 	</center>
 	</div>
@@ -274,56 +281,66 @@
 <!--fin content-->
 <!--inicio footer-->
 <footer>
-	<div class="container-fluid">
-		<div class="row  contact">
+	<div class="container-fluid contact">
+		<div class="row text-contact">
+			<div class="container">
 			<h1 class="text-center">Contact Us</h1>
-			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+			<h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod sit amet, consectetur adipisicing elit,.</h5>
 		<div class="col-md-6">
 			<h3>Send Mesagge</h3>
-			<form action="index.html" method="get">
-					<div>
-						<label><i class="icon-user" aria-hidden="true"></i></label>
-						<input type="text" placeholder="Nombre"></input>
-					</div>
-					<div>	
-						<label><i class="icon-envelop" aria-hidden="true"></i></label>
-						<input type="text" placeholder="Email"></input>
-					</div>
-					<div>	
-						<label><i class="icon-pencil" aria-hidden="true"></i></label>
-						<textarea placeholder rows="10" cols="40"></textarea>
-					</div>
-			</form>				    
-			<button class="btn"><a href="index.html#enviar">Submit</a></button>
+  <form>
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+  </div>
+  <div class="form-group">
+   <textarea class="form-control" rows="10" placeholder="Message"></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 about">
 			<h3>About Us</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.
+			 Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.
+			 esse<br>
+			cillum dolore eu fugiat nulla pariatur.
+			 Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut<br> aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur.</p>
-			<h3>Address</h3>
-			<span class="glyphicon glyphicon-map-marker">13 Brant Street, Burlington, Ontario, Canada</span><br>
-			<span class="glyphicon glyphicon-earphone">Phone:0011 222 335 7773</span>
+			<h4>Address</h4>
+			<div class="direccion">
+			<span class="glyphicon glyphicon-map-marker"> 13 Brant Street, Burlington, Ontario, Canada</span><br><br>
+			<span class="glyphicon glyphicon-earphone"> Phone:0011 222 335 7773</span>
+			</div>
+		</div>
 		</div>
 		</div>
 	</div>
 	<center>
-	<div class="row">
-		<h3>Follow Us</h3>
+	<div class="row follow">
+		<strong><h1>Follow Us!</h1></strong>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 	</div>
 	<div class="row  redes">
-		<img class="img-responsive" src="img/facebook.png">
-		<img class="img-responsive" src="img/twitter.png">
-		<img class="img-responsive" src="img/in.png">
-		<img class="img-responsive" src="img/pin.png">
-		<img class="img-responsive" src="img/google.png">
+	<ul class="list-inline list-unstyled">
+		<li><a href="#"><img class="img-responsive" src="img/facebook.png"></a></li>
+		<li><a href="#"><img class="img-responsive" src="img/twitter.png"></a></li>
+		<li><a href="#"><img class="img-responsive" src="img/in.png"></a></li>
+		<li><a href="#"><img class="img-responsive" src="img/pin.png"></a></li>
+		<li><a href="#"><img class="img-responsive" src="img/google.png"></a></li>
+	</ul>		
 	</div>
 	</center>
+	</div>
 	<div class="row derechos">
-		<h6 class="text-center">Primes 2015-laboratoria.la</h6>		
+		<h5 class="text-center">© primes 2015 - laboratoria.la</h5>		
 	</div>
 </footer>
 <!--fin footer-->
