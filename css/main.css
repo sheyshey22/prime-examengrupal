@@ -14,7 +14,7 @@ hr{
 	width: 250px;
 }
 i{
-	font-size: 30px;
+	font-size: 50px;
 	color: #1CBBB5; 
 	text-align: center;
 }
@@ -33,29 +33,56 @@ i{
 }
 /* sheyla*#009999*/
 .features{
-	margin-top: 300px;
-	margin-bottom: 300px;	
-}
-.features i{
-	font-size: 50px;
-	color: #009999; 
-	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;	
 }
 .list-feat{
 	text-align: center;
 	list-style: none;
-	width: 300px;
+	width: 330px;
 }
 .list-more-feat{
-	margin-top: 300px;
-	margin-bottom: 300px;
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: left;
 }
 .more{
+	margin-top: 50px;
 	background-color:#f2f2f2;
+}
+.more img{
+	width: 70%
+	height:70%;
 }
 .portafolio{
 	background-color:#f2f2f2;
 }
+.menu-portafolio li{
+	margin: 5px;
+	display: inline-block;
+}
+.menu-portafolio li a{
+	color: #000;
+	background: #fff;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+}
+.menu-portafolio li a:hover{
+	padding: 20px;
+	background: #009999;
+	color: #fff;
+}
+.list-img img{
+	margin-top: 20px;
+}
+.boton{
+	margin-top: 20px;
+	background: #000;
+	color: #fff;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+/*pao*/
 #list-menu{
 	margin-top: 60px;
 }
