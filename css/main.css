@@ -124,16 +124,15 @@ i{
 	padding-bottom: 10px;
 }
 .hero a{
-	font-size: 40px;
+	font-size: 30px;
 }
 .hero a:hover{
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 30px;
 	color: #fff;
 }
 #list-menu a{
-	padding-right: 18px;
-	font-size: 25px;
+	font-size: 30px;
 	color: #fff;
 }
 #list-menu a:hover{
